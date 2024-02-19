@@ -97,15 +97,59 @@ class CArray {
 
     return result;
   }
+
+  /** creates and returns a new string by concatenating all of the elements in this array, separated by commas or a specified separator string */
+  join(str) {
+    let result = "";
+    let separator = str === undefined ? "," : str;
+
+    for (let i = 0; i < this.arr.length; i++) {
+      result += `${this.arr[i]}${i === this.length - 1 ? "" : separator}`;
+    }
+
+    return result;
+  }
+
+  /** Array.prototype.reduce() */
+  reduce(callbackFn, initial) {
+    const isInitial = initial !== undefined;
+    let result = isInitial ? initial : this.arr[0];
+
+    for (let i = isInitial ? 0 : 1; i < this.arr.length; i++) {
+      result = callbackFn(result, this.arr[i]);
+    }
+
+    return result;
+  }
+
+  /** removes the first element from an array and returns that removed element. */
+  shift() {
+    const removedItem = this.arr[0];
+    this.delete(0);
+
+    return removedItem;
+  }
+
+  /**
+   * adds the specified elements to the beginning of an array and returns the new length of the array.
+   * @param args : element1, element2, element3,  ..., elementN
+   * */
+  unshift(...args) {
+    for (let i = args.length - 1; i >= 0; i--) {
+      this.prepend(args[i]);
+    }
+
+    return this.length;
+  }
+
+  // slice, sort/toSorted, splice
 }
 
 const arr = new CArray([1, 2, 3, 4, 5]);
 
-arr.insert({ index: 2, item: "red" });
-arr.push("red");
-arr.push("red");
-arr.push("red");
-arr.push("red");
-arr.remove("red");
+arr.insert({ index: 2, item: 10 });
+arr.insert({ index: 4, item: 6 });
 
+console.log(arr.shift());
+console.log(arr.unshift(1, 2, 3));
 console.log(arr);
