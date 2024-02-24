@@ -550,7 +550,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
   - [ ] Videos:
 
-    - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+    - [x] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
     - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
@@ -560,19 +560,24 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
   - [ ] Online Courses:
 
-    - [ ] [Core Hash Tables (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+    - [x] [Core Hash Tables (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
     - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/4)
     - [ ] [Phone Book Problem (video)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
     - [ ] distributed hash tables:
       - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
       - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
-  - [ ] Implement with array using linear probing
-    - hash(k, m) - m is size of hash table
-    - add(key, value) - if key already exists, update value
-    - exists(key)
-    - get(key)
-    - remove(key)
+  - [x] Documents:
+
+    - [x] [How to use Hash tables with Object and Map classes in JS](https://www.freecodecamp.org/news/javascript-hash-table-associative-array-hashing-in-js/)
+    - [x] [Data Structure: Hash Table & Big O Notation](https://lukabaramishvili.medium.com/data-structure-hash-table-big-o-notation-a2ee869be861#:~:text=Big%20O%20Notation%20in%20Hash%20Tables.&text=It%20means%20that%20searching%20for,with%20them%20using%20different%20methods.)
+
+  - [x] Implement with array using linear probing
+    - [x] hash(k, m) - m is size of hash table
+    - [x] add(key, value) - if key already exists, update value
+    - [x] exists(key)
+    - [x] get(key)
+    - [x] remove(key)
 
 ## More Knowledge
 
