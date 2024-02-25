@@ -583,13 +583,16 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
 - ### Binary search
 
-  - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
+  - [x] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
   - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
   - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
   - [ ] [blueprint](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
-  - [ ] Implement:
-    - binary search (on sorted array of integers)
-    - binary search using recursion
+  - Documents for implementations
+    - [x] [Binary Search implementation](https://www.acmicpc.net/blog/view/109)
+  - [ ] Tests:
+    - [x] [LeetCode - 162. Find Peak Element](https://leetcode.com/problems/find-peak-element/solutions/4779729/binary-search-javascript-typescript)
+    - [x] [LeetCode -35. Search Insert Position](https://leetcode.com/problems/search-insert-position/?envType=study-plan-v2&envId=top-interview-150)
+    - [x] [LeetCode - 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/solutions/4780164/binary-search-javascript-typescript)
 
 - ### Bitwise operations
   - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
