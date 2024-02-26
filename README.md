@@ -584,12 +584,12 @@ if you can identify the runtime complexity of different algorithms. It's a super
 - ### Binary search
 
   - [x] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
-  - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
-  - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
+  - [x] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+  - [x] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
   - [ ] [blueprint](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
   - Documents for implementations
     - [x] [Binary Search implementation](https://www.acmicpc.net/blog/view/109)
-  - [ ] Tests:
+  - [x] Tests:
     - [x] [LeetCode - 162. Find Peak Element](https://leetcode.com/problems/find-peak-element/solutions/4779729/binary-search-javascript-typescript)
     - [x] [LeetCode -35. Search Insert Position](https://leetcode.com/problems/search-insert-position/?envType=study-plan-v2&envId=top-interview-150)
     - [x] [LeetCode - 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/solutions/4780164/binary-search-javascript-typescript)
@@ -625,11 +625,11 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
 - ### Trees - Notes & Background
 
-  - [ ] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
+  - [x] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
   - basic tree construction
   - traversal
   - manipulation algorithms
-  - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
+  - [x] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
     - BFS notes:
       - level order (BFS, using queue)
       - time complexity: O(n)
@@ -642,6 +642,9 @@ if you can identify the runtime complexity of different algorithms. It's a super
       - inorder (DFS: left, self, right)
       - postorder (DFS: left, right, self)
       - preorder (DFS: self, left, right)
+  - [x] Documents
+    - [x] [Introduction to Tree – Data Structure and Algorithm Tutorials](https://www.geeksforgeeks.org/introduction-to-tree-data-structure-and-algorithm-tutorials/)
+    - [x] [JavaScript Tree Traversal: Unveiling Data Structure Depths](https://medium.com/@adityakashyap_36551/javascript-tree-traversal-unveiling-data-structure-depths-5be256d54145)
 
 - ### Binary search trees: BSTs
 
