@@ -1,4 +1,4 @@
-import { createTree } from "./tree.js";
+import { createBinaryTree } from "./tree.js";
 
 /** Preorder Traversal */
 function dfs_preorder(node, out) {
@@ -29,7 +29,7 @@ function dfs_postorder(node, out) {
   out.push(node.value);
 }
 
-const root = createTree();
+const root = createBinaryTree();
 const dfs_preorder_res = [];
 const dfs_inorder_res = [];
 const dfs_postorder_res = [];

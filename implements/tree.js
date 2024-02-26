@@ -1,6 +1,6 @@
-/** Create Tree for implementations of Traversal Tree */
+/** Create Tree for implementations of Traversal Binary Tree */
 
-export class Node {
+class BinaryNode {
   constructor(value) {
     this.value = value;
     this.left = null;
@@ -8,9 +8,9 @@ export class Node {
   }
 }
 
-export const createTree = () => {
+export const createBinaryTree = () => {
   function createNode(value) {
-    return new Node(value);
+    return new BinaryNode(value);
   }
 
   function createNodeArray(size) {
@@ -40,4 +40,38 @@ export const createTree = () => {
   edge(nodes[5], nodes[10], nodes[11]);
 
   return root;
+};
+
+class Node {
+  constructor(val, parent = null, children = []) {
+    this.val = val;
+    this.parent = parent;
+    this.children = children;
+  }
+
+  setParent(parent) {
+    this.parent = parent;
+  }
+
+  setChild(children = []) {
+    this.children = children;
+  }
+}
+
+export const createTree = () => {
+  function createNode(value, parent, child = []) {
+    return new BinaryNode(value, parent, child);
+  }
+
+  function createNodeArray(size) {
+    const result = [];
+
+    for (let i = 1; i <= size; i++) {
+      result.push(createNode(i));
+    }
+
+    return result;
+  }
+
+  const root = createNode(0, null);
 };
